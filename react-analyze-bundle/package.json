@@ -1,0 +1,22 @@
+{
+  "name": "demo-react-analyze-bundle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "QuyenHn",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "cross-env AZALYZE=true yarn build"
+  },
+
+  "dependencies": {
+    "@next/bundle-analyzer": "^9.5.2",
+    "cross-env": "^7.0.2",
+    "faker": "^5.1.0",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
